@@ -12,6 +12,10 @@ background-color: #F2F7F2;
  margin-left: 10rem;
   background-color:#fff;
 }
+img{
+  width: 20px;
+  margin-left:o;
+}
 button{
   display: inline-block;
 }
@@ -30,6 +34,79 @@ button{
   font-family:sans-serif;
  font-style: normal;
  text-align: center;
+}
+
+.third{
+  color:#8e5572;
+  font-weight:900px;
+  font-family:sans-serif;
+ font-style: normal;
+ text-align: center; 
+}
+.second{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#443850;
+margin: 30px;
+}
+.for-upload-port{
+  border: 2px solid #443850;
+ background-color: #443850;
+ color: #F2F7F2;
+ padding: 12px;
+ margin-left: 40px;
+ border-radius: 10px;
+width: 30%;
+margin-right: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:medium;
+}
+.for-browse-ind{
+  background-color: #F2F7F2;
+  color: #003;
+  padding: 12px;
+  border: 2px solid #003;
+  margin-left: 40px;
+ border-radius: 10px;
+width: 30%;
+margin-right: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:medium;
+}
+
+.stats{
+  display: inline;
+  row-gap: 1opx;
+  gap: 45px;
+  margin: 40px;
+  background-color: #F2F7F2;
+}
+
+.active,.top-recruiters,.rate{
+  margin:150px;
+  color:#443850;
+font-size: xx-large;
+ margin-top: 30px;
+ 
+
+}
+.activeports{
+  color: #bcaa99;
+  display: block;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.industries{
+  color: #443850;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.second{
+  text-align: center;
+}
+.tech,.health,.education,.business{
+background-color: #F2F7F2;
+display: inline;
+padding: 60px;
 }
 /*  #8E5572-purple
 bbbe64-green
