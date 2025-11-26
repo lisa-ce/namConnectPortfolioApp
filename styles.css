@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding:0;
+ box-sizing:border-box;
+}
+
+main{
+background-color: #F2F7F2; 
+}
+
+.header-name{
+ margin-left: 10rem;
+  background-color:#fff;
+}
+button{
+  display: inline-block;
+}
+.main-para{
+  border: 2px solid #443850;
+  border-radius:10px;
+  height:10%;
+  width:30%;
+  margin: 15px auto;
+  color:#bcaa99;
+  padding:8px
+}
+.sec{
+  color:#443850;
+  font-weight:900px;
+  font-family:sans-serif;
+ font-style: normal;
+ text-align: center;
+}
+/*  #8E5572-purple
+bbbe64-green
+F2F7F2 white
+,BCAA99 chocolatey
+,443850 purple*/
