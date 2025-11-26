@@ -29,13 +29,11 @@ width: 30px;
   opacity: 0.8;
   color: #bcaa99;
 }
-img{
-  width: 20px;
-  margin-left:o;
+main {
+  background-color: #F2F7F2;
+  padding-bottom: 50px;
 }
-button{
-  display: inline-block;
-}
+
 .main-para{
   border: 2px solid #443850;
   border-radius:10px;
