@@ -1,4 +1,4 @@
-/* GLOBAL */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   color: #443850;
 }
 
-/* HEADER */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -59,7 +59,7 @@ nav.nav {
   cursor: pointer;
 }
 
-/* HERO SECTION */
+
 .hero {
   text-align: center;
   padding: 70px 20px;
@@ -90,7 +90,7 @@ nav.nav {
   font-size: 16px;
 }
 
-/* HERO BUTTONS */
+
 .hero-buttons {
   margin-top: 30px;
   display: flex;
@@ -117,7 +117,7 @@ nav.nav {
   color: #443850;
 }
 
-/* STATS */
+
 .stats {
   display: flex;
   justify-content: center;
@@ -136,7 +136,7 @@ nav.nav {
   color: #443850;
 }
 
-/* INDUSTRIES SECTION */
+
 .industries-section {
   margin-top: 60px;
   text-align: center;
