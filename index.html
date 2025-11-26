@@ -3,59 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>namConnect Home</title>
+  <title>namConnect</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-  <header class="header-name">
+  <!-- HEADER -->
+  <header class="header">
     <div class="logo">
-      <img src="handshake-solid-full.svg" alt="namConnect handshake icon">
-      <h1 class="namconnect">namConnect</h1>
+      <img src="handshake-solid-full.svg" alt="logo">
+      <h1>namConnect</h1>
     </div>
 
-    <nav class="nav-links">
-      <button>Get started</button>
-      <button>Home</button>
-      <button>Industries</button>
-      <button>Upload Portfolio</button>
-      <button>My Profile</button>
+    <nav class="nav">
+      <a href="#" class="nav-item active">Home</a>
+      <a href="#" class="nav-item">Industries</a>
+      <a href="#" class="nav-item">Upload Portfolio</a>
+      <a href="#" class="nav-item">My Profile</a>
+      <button class="get-started">Get Started</button>
     </nav>
   </header>
 
-  <main class="main-page">
-    <p class="main-para">Connect. Showcase. Get hired.</p>
+  <!-- HERO SECTION -->
+  <main class="hero">
+    <p class="tagline">✨ Connect. Showcase. Get Hired.</p>
 
-    <h1 class="sec">Your Portfolio</h1>
-    <h1 class="third">Their Perfect Match</h1>
+    <h1 class="title">
+      Your Portfolio,<br>
+      <span class="highlight">Their Perfect Match</span>
+    </h1>
 
-    <p class="second">
-      Upload your portfolio or let us create one for you. Connect with recruiters 
-      in your industry and land your dream job.
+    <p class="subtitle">
+      Upload your portfolio or let us create one for you.  
+      Connect with recruiters in your industry and land your dream job.
     </p>
 
-    <div class="btn-group">
-      <button class="for-upload-port">Upload Portfolio</button>
-      <button class="for-browse-ind">Browse Industries</button>
+    <div class="hero-buttons">
+      <button class="btn primary">Upload Portfolio →</button>
+      <button class="btn secondary">Browse Industries</button>
     </div>
 
-    <div class="stats-container">
-      <p class="stats"><span class="number">10+</span> Portfolios</p>
-      <p class="stats"><span class="number">5+</span> Top Recruiters</p>
-      <p class="stats"><span class="number">40%</span> Success Rate</p>
+    <div class="stats">
+      <div class="stat-card">
+        <h2>10K+</h2>
+        <p>Active Portfolios</p>
+      </div>
+      <div class="stat-card">
+        <h2>500+</h2>
+        <p>Top Recruiters</p>
+      </div>
+      <div class="stat-card">
+        <h2>95%</h2>
+        <p>Success Rate</p>
+      </div>
     </div>
-
-    <h1 class="industries">Popular Industries</h1>
-    <p class="second">Explore portfolios across different fields</p>
-
-    <div class="industries-grid">
-      <div class="industry-card">Tech (32 Portfolios)</div>
-      <div class="industry-card">Health (18 Portfolios)</div>
-      <div class="industry-card">Education (15 Portfolios)</div>
-      <div class="industry-card">Business (18 Portfolios)</div>
-    </div>
-
   </main>
 
+  <!-- INDUSTRIES SECTION -->
+  <section class="industries-section">
+    <h1>Popular Industries</h1>
+    <p class="ind-subtitle">Explore portfolios across different fields</p>
+
+    <div class="industry-grid">
+      <div class="industry-card">
+        <h2>Tech</h2>
+        <p>3,245 portfolios</p>
+      </div>
+
+      <div class="industry-card">
+        <h2>Health</h2>
+        <p>1,876 portfolios</p>
+      </div>
+
+      <div class="industry-card">
+        <h2>Education</h2>
+        <p>1,523 portfolios</p>
+      </div>
+
+      <div class="industry-card">
+        <h2>Business</h2>
+        <p>2,890 portfolios</p>
+      </div>
+    </div>
+  </section>
+
 </body>
+
 </html>
