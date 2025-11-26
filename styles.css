@@ -4,13 +4,30 @@
  box-sizing:border-box;
 }
 
-main{
-background-color: #F2F7F2; 
-}
 
 .header-name{
  margin-left: 10rem;
   background-color:#fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  border-bottom:2px solid #8e5572 ;
+}
+.logo img{
+width: 30px;
+}
+.nav-links button{
+  margin-left: 15px;
+  padding: 8px 16px;
+  border: none;
+  color: #003;
+  border-radius: 6px;
+  cursor:pointer;
+}
+.nav-links button:hover {
+  opacity: 0.8;
+  color: #bcaa99;
 }
 img{
   width: 20px;
